@@ -56,9 +56,21 @@ st.markdown("""
     .info-card {
         padding: 16px;
         border-radius: 14px;
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
+        background: #1e293b;
+        border: 1px solid #334155;
+        color: #f1f5f9 !important;
         margin-bottom: 12px;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    .info-card b {
+        color: #38bdf8 !important;
+    }
+    .info-card code {
+        background: #0f172a !important;
+        color: #38bdf8 !important;
+        padding: 2px 6px !important;
+        border-radius: 6px !important;
     }
 
     /* Vibrant Gradient Submit Button */
